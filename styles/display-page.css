@@ -1,0 +1,60 @@
+.main
+{
+	font-size: 0px;
+}
+
+/*Controls the placement and size of our animation*/
+.box-parent
+{
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+}
+
+/*Puts a border around all boxes and calls them to be inline*/
+.box
+{
+	border: 1px solid black;
+	display: inline-block;
+}
+
+/*Sets the parameters for the top two boxes*/
+.box_half
+{
+	width: 50%;
+	height: 200px;
+}
+
+/*Sets the parameters for the bottom three boxes*/
+.box_third
+{
+	width: 33.3%;
+	height: 300px;
+}
+
+/*All below set colors to specific boxes*/
+.green
+{
+	background-color: green;
+}
+
+.blue
+{
+	background-color: blue;
+}
+
+.grey
+{
+	background-color: grey;
+}
+
+.black
+{
+	background-color: black;
+}
+
+.orange
+{
+	background-color: orange;
+}
